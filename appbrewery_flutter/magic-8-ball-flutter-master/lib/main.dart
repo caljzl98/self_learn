@@ -36,21 +36,53 @@ class _BallPageState extends State<BallPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Row(
-        children: [
-          Expanded(
-            child: FlatButton(
-              onPressed: () {
-                setState(() {
-                  ballNumber = Random().nextInt(5) + 1;
-                });
-              },
-              child: Image.asset('images/ball$ballNumber.png'),
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Container(
+                child: Text(
+                  '1. Think of a Question',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 25.0,
+                  ),
+                ),
+              ),
             ),
-          )
-        ],
-      ),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Container(
+                child: Text(
+                  '2. Touch the Magic Ball',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 25.0,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+        Row(
+          children: [
+            Expanded(
+              child: FlatButton(
+                onPressed: () {
+                  setState(() {
+                    ballNumber = Random().nextInt(5) + 1;
+                  });
+                },
+                child: Image.asset('images/ball$ballNumber.png'),
+              ),
+            ),
+          ],
+        ),
+      ],
     );
   }
 }
