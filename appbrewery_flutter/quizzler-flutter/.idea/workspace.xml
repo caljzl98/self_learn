@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b89d4686-8c9a-4faa-b676-1189a3592536" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quiz_brain.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quiz_brain.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quizzler-flutter-challenge/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quizzler-flutter-challenge/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quizzler-flutter-challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quizzler-flutter-challenge/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,22 +58,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="389" key="GridCell.Tab.0.bottom" timestamp="1600387654023">
+    <state width="1238" height="228" key="GridCell.Tab.0.bottom" timestamp="1600464252674">
       <screen x="0" y="23" width="1920" height="1136" />
     </state>
-    <state width="1238" height="389" key="GridCell.Tab.0.bottom/0.23.1920.1136@0.23.1920.1136" timestamp="1600387654023" />
-    <state width="1238" height="389" key="GridCell.Tab.0.center" timestamp="1600387654022">
+    <state width="1238" height="228" key="GridCell.Tab.0.bottom/0.23.1920.1136@0.23.1920.1136" timestamp="1600464252674" />
+    <state width="1238" height="228" key="GridCell.Tab.0.center" timestamp="1600464252672">
       <screen x="0" y="23" width="1920" height="1136" />
     </state>
-    <state width="1238" height="389" key="GridCell.Tab.0.center/0.23.1920.1136@0.23.1920.1136" timestamp="1600387654022" />
-    <state width="1238" height="389" key="GridCell.Tab.0.left" timestamp="1600387654021">
+    <state width="1238" height="228" key="GridCell.Tab.0.center/0.23.1920.1136@0.23.1920.1136" timestamp="1600464252672" />
+    <state width="1238" height="228" key="GridCell.Tab.0.left" timestamp="1600464252671">
       <screen x="0" y="23" width="1920" height="1136" />
     </state>
-    <state width="1238" height="389" key="GridCell.Tab.0.left/0.23.1920.1136@0.23.1920.1136" timestamp="1600387654021" />
-    <state width="1238" height="389" key="GridCell.Tab.0.right" timestamp="1600387654022">
+    <state width="1238" height="228" key="GridCell.Tab.0.left/0.23.1920.1136@0.23.1920.1136" timestamp="1600464252671" />
+    <state width="1238" height="228" key="GridCell.Tab.0.right" timestamp="1600464252672">
       <screen x="0" y="23" width="1920" height="1136" />
     </state>
-    <state width="1238" height="389" key="GridCell.Tab.0.right/0.23.1920.1136@0.23.1920.1136" timestamp="1600387654022" />
+    <state width="1238" height="228" key="GridCell.Tab.0.right/0.23.1920.1136@0.23.1920.1136" timestamp="1600464252672" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1600383408740">
       <screen x="0" y="23" width="1920" height="1136" />
     </state>
