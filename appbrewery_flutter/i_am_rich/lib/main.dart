@@ -15,7 +15,7 @@ void main() {
             image: AssetImage(
                 'images/diamond.png'), // check pubspec.yaml, assets are local
           ),
-        ),
+        ),`
       ),
     ),
   );
