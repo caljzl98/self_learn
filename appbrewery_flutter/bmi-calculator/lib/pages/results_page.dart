@@ -1,8 +1,14 @@
 import 'package:bmi_calculator/constants.dart';
 import 'package:flutter/material.dart';
-import 'reusable_card.dart';
+import 'package:bmi_calculator/components/reusable_card.dart';
 
 class ResultsPage extends StatelessWidget {
+
+  ResultsPage({@required this.bmiResult, @required this.resultText});
+
+  final String bmiResult;
+  final String resultText;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,17 +38,12 @@ class ResultsPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    'Normal',
+                    resultText,
                     style: kResultTextStyle,
                   ),
                   Text(
-                    '18.3',
+                    bmiResult,
                     style: kBMITextStyle,
-                  ),
-                  Text(
-                    'Your BMI result is quite low, you should eat more.',
-                    style: kBodyTextStyle,
-                    textAlign: TextAlign.center,
                   ),
                 ],
               ),
